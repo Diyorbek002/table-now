@@ -1,0 +1,47 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+.table__data-separately{
+    padding:20px;
+    border: 1px solid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.table__heading{
+    border: 1px solid;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.table__data{
+    border: 1px solid;
+    padding: 10px 20px;
+    text-align: center;
+}
